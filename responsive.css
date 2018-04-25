@@ -1,0 +1,131 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 350px) {
+    .main__picture > img {
+        width: 94%;
+    }
+
+    .header__logo {
+        height: 48px;
+    }
+    
+    .header__title {
+        margin-left: 0;
+        font-size: 2em;
+        vertical-align: bottom; 
+    }
+
+    h1.header__title {
+        font-size: 2em;
+    }
+    
+    h3.header__title {
+        font-size: 1em;
+    } 
+
+    .project__description > img {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 351px) {
+    .main__picture > img {
+        width: 94%;
+    }
+
+    .header__logo {
+        height: 60px;
+    }
+    
+    .header__title {
+        margin-left: 0;
+        font-size: 2em;
+        vertical-align: bottom; 
+    }
+
+    h1.header__title {
+        font-size: 2em;
+    }
+    
+    h3.header__title {
+        font-size: 1em;
+    } 
+
+    .project__description > img {
+        width: 90%;
+    }
+     
+}
+
+@media screen and (min-width: 400px) {
+    .main__picture > img {
+        width: 94%;
+    }
+
+    .header__logo {
+        height: 60px;
+    }
+    
+    .header__title {
+        margin-left: 0;
+        font-size: 2em;
+        vertical-align: bottom; 
+    }
+
+    h1.header__title {
+        font-size: 3em;
+    }
+    
+    h3.header__title {
+        font-size: 1em;
+    } 
+
+    .project__description > img {
+        width: 90%;
+    }
+     
+}
+
+@media screen and (min-width: 611px) {
+    
+    .header__logo {
+        height: 80px;
+    }
+
+    .main__picture > img {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .main__picture > img {
+        width: 600px;
+    }
+
+    .project {
+        width: 50%;
+    }
+
+    .project__description > img {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    main, .header__inner, .nav, .content {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project {
+        width: 25%;
+    }
+
+    .project__description > img {
+        width: 140px;
+    }
+}
